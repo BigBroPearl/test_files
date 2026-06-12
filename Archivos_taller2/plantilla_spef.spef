@@ -1,0 +1,59 @@
+*SPEF "IEEE 1481-1998"
+*DESIGN "counter"
+*DATE "Mon Jun  8 22:39:52 2026"
+*VENDOR "Cadence Design Systems, Inc."
+*PROGRAM "Innovus"
+*VERSION "22.33-s094_1"
+*DESIGN_FLOW "COUPLING C" "PIN_CAP NONE" "NAME_SCOPE LOCAL"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER []
+*T_UNIT 1 NS
+*C_UNIT 1 PF
+*R_UNIT 1 OHM
+*L_UNIT 1 HENRY
+
+
+
+*NAME_MAP
+
+*1 clk_i
+*2 rst_n_i
+*3 q_o[1]
+*4 q_o[0]
+*5 n_0
+*6 n_1
+*7 n_2
+*8 q_o_reg\[1\]
+*9 g25__2398
+*10 q_o_reg\[0\]
+*11 g27__5107
+*12 g28__6260
+
+
+*PORTS
+
+*1 I *C 7.3 10.45
+*2 I *C 9.7 10.45
+*3 O *C 4.9 0
+*4 O *C 7.3 0
+
+*D_NET *7 1e-4
+*CONN
+*I *9:NOR O *C 2e-5 *D NOR2BX1
+*I *8:FF I *C 2e-5 *D DFFQXL
+*CAP
+*9:NOR 2e-5
+*7:3 2e-5
+*7:2 2e-5
+*7:1 2e-5
+*8:FF 2e-5
+*RES
+*9:NOR 2
+*7:3 2
+*7:2 2
+*7:1 2
+*END
+
+
+
