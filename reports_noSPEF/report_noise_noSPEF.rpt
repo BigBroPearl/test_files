@@ -1,0 +1,2 @@
+Output report file name prefix is (null) 
+**ERROR: (IMPESI-2109):	Glitch results are not available for reporting. Ensure that parasitics are correctly annotated for all active RC corners, and glitch analysis has also been performed before running report_noise.
